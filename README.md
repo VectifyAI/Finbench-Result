@@ -26,7 +26,6 @@ We invite domain experts to evaluate all the answers manually, which yields the 
 
 <div align="center" style="margin: 20px 0;">
   <img src="result.png">
-  
 </div>
 
 <div align="center">
@@ -41,8 +40,16 @@ We invite domain experts to evaluate all the answers manually, which yields the 
 
 </div>
 
+
 - All the tested questions, generated answers, and the evaluation labels can be found in [here](https://github.com/VectifyAI/Finbench-Result/blob/main/financebench_result.json).
 - We report the wrong answers and invalid questions in the FinanceBench repo: [invalid questions](https://github.com/patronus-ai/financebench/issues/5) and [wrong answers](https://github.com/patronus-ai/financebench/issues/7).
+
+## More Comparisons
+<div align="center" style="margin: 20px 0;">
+  <img src="mafin.png">
+</div>
+
+- The results for Fintool, GPT-4-o+Search, and GPT-4-o are sourced from [here](https://fintool.com/fintool-versus-chatgpt-4o), which utilizes a subset of 100 questions from a pool of 150 test questions. We assume they employ a uniform sampling strategy to select the test queries, ensuring that all resulting performance estimates are unbiased.
 
 ## Contact
 If you have questions about these results or want to try our beta version, email us at contact@vectify.ai.

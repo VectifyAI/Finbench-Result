@@ -1,4 +1,4 @@
-# Finbench Result of Mafin-2
+# FinanceBench Result of Mafin-2
 
 This repository contains the results of our finance benchmark evaluations using our Mafin-2 system. These evaluations are based on the FinanceBench benchmark as introduced in the paper [FinanceBench: A New Benchmark for Financial Question Answering](https://arxiv.org/pdf/2311.11944).
 
@@ -14,7 +14,7 @@ You can find the old Mafin-1 method in our technique report: [Mafin: Enhancing B
 
 [FinanceBench](https://arxiv.org/pdf/2311.11944) is a pioneering test suite designed to evaluate the performance of large language models (LLMs) on open-book financial question answering (QA). It includes questions about publicly traded companies, each accompanied by corresponding answers and evidence strings. 
 It has the following key features:
-- **Ecologically valid questions:** Cover a diverse set of scenarios relevant to publicly traded companies.
+- **Ecologically valid questions:** Covers a diverse set of scenarios relevant to publicly traded companies.
 - **Model evaluation:** Includes assessment of 16 state-of-the-art model configurations such as GPT-4.
 - **Limitations identified:** Highlights the limitations of current LLMs for financial QA, including hallucinations and refusal to answer.
 
@@ -41,7 +41,7 @@ We invite domain experts to evaluate all the answers manually, which yields the 
 </div>
 
 
-- All the tested questions, generated answers, and the evaluation labels can be found in [here](https://github.com/VectifyAI/Finbench-Result/blob/main/financebench_result.json).
+- All the tested questions, generated answers, and the evaluation labels can be found [here](https://github.com/VectifyAI/Finbench-Result/blob/main/financebench_result.json).
 - We report the wrong answers and invalid questions in the FinanceBench repo: [invalid questions](https://github.com/patronus-ai/financebench/issues/5) and [wrong answers](https://github.com/patronus-ai/financebench/issues/7).
 
 ## More Comparisons

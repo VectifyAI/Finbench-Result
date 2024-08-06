@@ -3,10 +3,7 @@
 This repository contains the results of our finance benchmark evaluations using our Mafin-2 system. These evaluations are based on the FinanceBench benchmark as introduced in the paper [FinanceBench: A New Benchmark for Financial Question Answering](https://arxiv.org/pdf/2311.11944).
 
 ## Mafin-2 Introduction
-Mafin-2 is Vectify's next-generation Retrieval Augmented Generation (RAG) system. It contains three key building blocks:
-1. A fine-tuned LLM model as the base model for generation.
-2. A fine-tuned embedding model to construct the node states in a knowledge tree.
-3. The Monte Carlo Tree Search (MCTS) technique with value function approximation to conduct the retrieval.
+Mafin-2 is Vectify's next-generation Retrieval Augmented Generation (RAG) system.
 
 You can find the old Mafin-1 method in our technique report: [Mafin: Enhancing Black-Box Embeddings with Model Augmented Fine-Tuning](https://arxiv.org/abs/2402.12177), which describes our embedding fine-tuning method. 
 
